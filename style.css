@@ -1,0 +1,122 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #e1624f;      /* fundo coral do layout */
+  color: #333333;
+  padding: 48px 16px;
+}
+
+/* Cartão branco central */
+.container {
+  max-width: 720px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 28px;
+  padding: 48px 40px;
+}
+
+/* Cabeçalho */
+.headline {
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: bold;
+  color: #e1624f;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 48px;
+  color: #1a1a1a;
+  margin-top: 8px;
+}
+
+/* Textos */
+p {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.intro p {
+  margin-top: 24px;
+}
+
+/* Imagens */
+img {
+  width: 100%;
+  border-radius: 28px;
+  object-fit: cover;
+  display: block;
+}
+
+figure {
+  margin-top: 32px;
+}
+
+figure img {
+  height: 375px;
+}
+
+figcaption {
+  font-size: 14px;
+  font-style: italic;
+  text-align: center;
+  color: #666666;
+  margin-top: 12px;
+}
+
+/* Linha divisória */
+.divider {
+  width: 100%;
+  height: 1px;
+  margin: 40px 0;
+  background-color: #d9d9d9;
+}
+
+/* Atrações */
+h2 {
+  font-size: 28px;
+  line-height: 36px;
+  color: #1a1a1a;
+  margin-bottom: 16px;
+}
+
+article {
+  margin-top: 40px;
+}
+
+article img {
+  height: 260px;
+}
+
+h3 {
+  font-size: 20px;
+  color: #e1624f;
+  margin: 20px 0 8px;
+}
+
+article a {
+  display: inline-block;
+  margin-top: 12px;
+  color: #e1624f;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+article a:hover {
+  text-decoration: underline;
+}
+
+/* Rodapé */
+footer {
+  text-align: center;
+  color: #ffffff;
+  margin-top: 32px;
+  font-size: 14px;
+}
